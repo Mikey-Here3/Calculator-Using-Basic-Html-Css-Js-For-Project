@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Calculator</title>
+    <link rel="stylesheet" href="style2.css">
+</head>
+<body>
+<div id="Calculator">
+    <div id="Box">
+        <div id="output">
+            <p id="ans">0</p>
+        </div>
+        <div class="B1">
+            <div id="buttons">
+                <button class="button" onclick="circleLeft()" id="circle_Left">(</button>
+                <button class="button" onclick="circleRight()" id="circle_Right">)</button>
+                <button class="button" onclick="backspace()" id="Backspace">CE</button>
+                <button class="button" onclick="clearValue()" id="clear">C</button>
+
+                <button class="button" onclick="appendValue('7')" id="seven">7</button>
+                <button class="button" onclick="appendValue('8')" id="eight">8</button>
+                <button class="button" onclick="appendValue('9')" id="nine">9</button>
+                <button class="button" onclick="appendValue('/')">/</button>
+
+                <button class="button" onclick="appendValue('4')" id="four">4</button>
+                <button class="button" onclick="appendValue('5')" id="five">5</button>
+                <button class="button" onclick="appendValue('6')" id="six">6</button>
+                <button class="button" onclick="appendValue('*')">*</button>
+
+                <button class="button" onclick="appendValue('1')" id="one">1</button>
+                <button class="button" onclick="appendValue('2')" id="two">2</button>
+                <button class="button" onclick="appendValue('3')" id="three">3</button>
+                <button class="button" onclick="appendValue('-')">-</button>
+
+                <button class="button" onclick="appendValue('0')" id="zero">0</button>
+                <button class="button" onclick="appendValue('.')" id="dot">.</button>
+                <button class="button" onclick="calculate()" id="equal">=</button>
+                <button class="button" onclick="appendValue('+')" id="add">+</button>
+            </div>
+        </div>
+    </div>
+</div>
+<script src="script.js"></script>
+</body>
+</html>
